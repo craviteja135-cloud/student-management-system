@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About My Website</title>
+    <style>
+        body{
+            margin: 0;
+            font-size: 20px;
+            background: linear-gradient(135deg, #b3ffff  ,#ffe6ff );
+        } 
+
+        .about-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .about-card{
+            width: 700px;
+            padding: 30px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #cfe9ff, #a3d0ff);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .about-card:hover{
+            transform: scale(1.01);
+            transition: 0.3s;
+        }
+
+        .about-card h2{
+            margin-bottom: 15px;
+            text-decoration: underline;
+        }
+
+        .about-card p{
+            line-height: 1.7;
+            color: #333;
+            font-size: 16px;
+        }
+
+        .back-btn{
+           display: inline-flex;
+           margin-top: 20px;
+           padding: 8px 16px;
+           background-color: #3333cc;
+           color: white;
+           text-decoration: none;
+           border-radius: 5px;
+        }
+
+        .back-btn:hover{
+            background-color: #1a1aff;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="about-container">
+        <div class="about-card">
+            <h2>About Student Management System</h2>
+            <p>The Student Management System is a web-based application designed to simplify the process of student registration and data management. It allows users to submit their details through a structured form and view recently registered information in a clear and organized manner. The system includes search functionality to quickly retrieve student records based on multiple fields. Basic validations are implemented to ensure data accuracy and improve user experience. Additionally, an admin panel is provided to manage and maintain student data securely.</p>
+            
+            <a href="/" class="back-btn">Back to Home</a>
+        </div>
+    </div>
+    
+
+   
+    
+</body>
+</html>
